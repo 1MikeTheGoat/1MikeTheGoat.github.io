@@ -1,0 +1,46 @@
+:root{
+  --primary:#3aa3e0;
+  --primaryDark:#0074ae;
+  --primarylight:#78d4ff;
+}
+.name{
+  background-color: var(--primary);
+  font-family: "arial black"
+}
+.navbar{
+  background-color: var(--primaryDark);
+  opacity: 0.9;
+  padding-left: 1em;
+}
+.subtitle{
+  font-family: "monotype corsiva";
+  text-align: center;
+}
+.introImage img{
+width:150px;
+height:150px;
+}
+.major, .department{
+  text-align: center;
+  display: block;
+}
+/*-- FOOTER --*/
+.footer {
+  background-color:var(--primary)
+}
+/*-- Animations --*/
+.limit{
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }

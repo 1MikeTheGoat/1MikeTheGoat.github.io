@@ -1,0 +1,27 @@
+.title{background-color: rgb(13,13,153); text-align: center; color: white; padding: 12px 0px}
+.google1, .google3{color: rgb(66,133,244)}
+.google2{color: rgb(234,67,53)}
+.google6{color: rgb(234,67,53)}
+.google5{color: rgb(52,168,83)}
+.primary{background-color: #3b62ff; padding: 20px; width: 100px; height: 100px}
+.Light{background-color: #7f8fff; padding: 20px; width: 100px; height: 100px}
+.Dark{background-color: #0039cb; padding: 20px; width: 100px; height: 100px}
+.figure1{width: 80%; margin-left: auto; margin-right: auto;}
+.img_figure1{width: 100%}
+.p_figure1{position: absolute; background-color: rgba(50,50,50, 0.3); color: lightgrey; top: 100%; padding: 12px;}
+/* sticky position */
+.stickyTop{background-color: rgba(52,168,83,0.5); padding: 1em; font-size: 2em; text-align: center; width: 80%; margin-left: auto; margin-right: auto;
+position: sticky; top: 0px;}
+.heroImage{ background-image: linear-gradient(rgba(234,67,53,0.2),rgba(251,188,5,0.2)), url("image1.jpg"); background-repeat: no-repeat; background-size: 100% 100%; width: 700px; height: 500px; margin-left: auto; margin-right: auto;
+position: relative;}
+.heroTitle{position: absolute; top: 45%; bottom: 45%; text-align: center; left: 35%; right: 35%;}
+.heroP{width: 50%; left: 10%; top: 5%; font-size: 20px; font-family: monospace;}
+.heroP2{position: absolute; width: 25%; right: 2%; bottom: 1%; font-size: 20px; font-family: monospace;}
+/* filters */
+.filterContainer{width: 90%; margin-left:auto; margin-right: auto;}
+.filter1, .filter2, .filter3{width: 300px; height: 220px; margin-left: 20px}
+figcaption{padding: 20px; text-align: center; font-size: 10px;}
+.filter1{filter: blur(2px)}
+.filter2{filter: sepia(100%);}
+.filter3{filter: invert(100%);}
+Footer{ text-align: center; font-size: 12px; border-top: ridge 2px}

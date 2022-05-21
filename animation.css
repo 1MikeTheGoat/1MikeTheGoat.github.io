@@ -1,0 +1,40 @@
+.title{background-color: darkblue; color: lightblue; text-align: center; padding: 12px;}
+.container{width: 80%; margin-left: auto; margin-right: auto; border: outset 10px darkgrey; position: relative; overflow: hidden;
+}
+.background{width: 100%;}
+.bus{width: 20%; bottom: 0px; left: 0px; animation-name: slideLeftRight; animation-duration: 2s; animation-iteration-count: 2; animation-delay: 3s; animation-fill-mode: forwards; animation-direction: alternate; animation-timing-function: ease-out;}
+@keyframes slideLeftRight {
+ from{transform: translateX(0%)} to{transform: translateX(390%);}
+}
+.cloud1{position: absolute;top: 0%; left: 0%; animation-name: slideClouds; animation-duration: 6s; animation-iteration-count: infinite;}
+.cloud2{position: absolute; width: 30%; top: 0; left: 20%; animation: slideClouds 10s infinite;}
+.cloud3{position: absolute; width: 40%; top: 5%; left: 50%; animation: slideClouds 12s infinite;}
+@keyframes slideClouds {
+  0%{transform: translateX(0%); opacity: 0.9;}
+  100%{transform:translateX(150%);}
+}
+.sun{position: absolute; width: 20%; top: 0%; left:0%; animation: slideSun 5s;}
+@keyframes slideSun {
+  0%{transform: translate(0,0) rotate(0deg); opacity: 0.9}
+ 50%{transform: translate(300px,200px);}
+ 100%{transform: translate(550px,-30px);}
+}
+.msg{position: absolute; top:40%; bottom: 40%; left: 20%; right: 20%; text-align: center; animation: zoomMSG 8s;
+}
+@keyframes zoomMSG {
+  0%{transform: scale(1);}
+  25%{transform: scale(0.3); color: blue}
+  50%{transform: scale(2); color: green}
+  75%{transform: scale(0.5); color: red}
+  100%{transform: scale(0); color: orange}
+}
+html{scroll-behavior: smooth;}
+.HorizantalTabs{background-color: purple; color: lightgrey; padding: 20px;}
+.HorizantalTabs a{color: lightgrey; display: inline-block; width: 30%; border: ridge 1px lightgrey; float: right; height: 110%; text-align: center; font-size: 1.2em; padding: 10px 0px; text-decoration: none;}
+.HorizantalTabs a:hover{background-color: blue; color: lightgreen;}
+.HorizantalTabs span{border: ridge 1px lightgrey; font-family: algerian; display: block; width: 30%; float: left; border-top: ridge 1px lightgrey; padding: 10px; font-size: 2em;}
+.verticalNavs{width: 30%}
+.verticalNavs li{padding: 10px 20px; background-color: orange; list-style: none; text-decoration: none; border: ridge 1px lightgrey
+}
+.verticalNavs li a{text-decoration: none; font-size: 1.2em; color: lightgrey;}
+.verticalNavs li:hover{background-color: darkgreen; text-decoration: underline;}
